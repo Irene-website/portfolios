@@ -1,0 +1,544 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EDE6E8;
+}
+.container .profolio.footer {
+    margin-top: -50px;
+}
+.container .contact.header .contact.info {
+    margin-top: 80px;
+    margin-bottom: 22px;
+    width: 500px;
+    margin-left: 500px;
+}
+.container .contact.header .contact.info {
+    text-align: left;
+}
+ul li .ppparagraph {
+    display: inline;
+    text-align: left;
+}
+
+.contact.form form input {
+    color: #2B1F21;
+    height: 28px;
+    width: 200px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contact.form form input {
+    margin-top: 5px;
+}
+.submit botton {
+}
+
+
+.container .contact.header .contact.form {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.contact.form form .submit {
+    text-align: center;
+    display: inline;
+    width: 92px;
+    background-color: #D4AAB5;
+    color: #FFFFFF;
+    border-style: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    height: 32px;
+}
+.container .contact.header h3 {
+    color: #AE6A7D;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.ppparagraph {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 0px;
+    color: #000000;
+    display: inline;
+    text-align: left;
+}
+
+
+ 
+
+.contact.info  li a:hover {
+    color: #AC86AC;
+    display: inline;
+    text-align: left;
+    text-decoration: none;
+}
+
+.container .contact.header h2 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #3c3034;
+    font-size: 20px;
+}
+.container .profolio.header .slider-container {
+    width: 300px;
+    height: 400px;
+    max-width: 500px;
+}
+.container .profolio.header .slider-container {
+}
+.profolio.header .slider-container .sport.logo {
+    margin-bottom: -20px;
+}
+.profolio.header .slider-container .slider {
+    height: 45px;
+}
+.container .profolio.header .slider-container.slider1 {
+    width: 300px;
+    height: 300px;
+}
+.slider-container.slider1 .slider img {
+    height: auto;
+    /* [disabled]width: 400px; */
+}
+.profolio.header .slider-controls .slider-container.slider1 {
+    width: 400px;
+    height: 100%;
+    display: inline;
+    text-align: center;
+}
+.profolio.header .slider-container .slider {
+    width: 300px;
+    height: 400px;
+}
+.slider-container .slider img {
+    width: 300px;
+    display: block;
+}
+.slider-container .slider img {
+    width: 400px;
+}
+.container .profolio.header .slider-controls {
+    margin-bottom: 33px;
+    text-align: center;
+}
+.container .profolio.header .slider-group {
+}
+.profolio.header .slider-group .slider1 {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.profolio.header .slider-group .slider {
+}
+.slides .slide img {
+    height: auto;
+}
+.slides .slide img {
+    height: auto;
+}
+.slides .slide img {
+}
+.container .profolio.header .slider-group2 {
+}
+.container .profolio.header h3 {
+    color: #AE6A7D;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+.profolio.header .websites h3 {
+}
+.container .profolio.header .websites {
+}
+.profolio.header .websites ul {
+}
+.container .profolio.header .websites {
+}
+.slider-container.slider1 .macbook.design .briefbox {
+    margin-top: -20px;
+}
+.container .profolio.header p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    margin-left: 133px;
+    margin-right: 133px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.container .profolio.header h2 {
+    color: #3C3034;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.briefboxparagraph {
+    color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 0px;
+    display: inline;
+    margin-top: -6px;
+}
+
+.briefbox  li a:hover {
+    color: #AC86AC;
+}
+
+.websites a:hover{
+    color: #2F2225;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+.container .profolio.header .macbook.design {
+    padding-bottom: 0px;
+    margin-bottom: -37px;
+}
+.texttcontact {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: -40px;
+}
+
+.profolio.header .slider-container.slider1 .macbook.design {
+    padding-bottom: 0px;
+}
+.profolio.header .slider-container.slider1 .macbook.design {
+    margin-bottom: -89px;
+}
+.macbook.design .briefbox ul {
+    display: inline;
+}
+.profolio.header .profolio.header img {
+    height: 100px;
+    width: auto;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.profolio.header .profolio.header img {
+    height: 100px;
+}
+.slider-controls .prev .macbookcase.botton {
+    padding-top: 0px;
+    display: inherit;
+    margin-top: -50px;
+    float: left;
+}
+.slider-controls .next .macbookcase.botton {
+    margin-top: -50px;
+    float: right;
+}
+.info.header .Journey.Header img {
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.info.header .myskill.header img {
+    height: 72px;
+    width: auto;
+    margin-bottom: 35px;
+}
+.container .info.header p {
+}
+.info.header .funfact.header img {
+    height: 100px;
+    width: auto;
+    margin-bottom: 35px;
+}
+.info.header .introimg.think img {
+    width: 126px;
+    height: auto;
+    float: left;
+    opacity: 1;
+    padding-right: 0px;
+}
+.container .info.header .introheader {
+}
+.info.header .introheader img {
+    width: 552px;
+    height: auto;
+    margin-top: 14px;
+    margin-bottom: 35px;
+    display: inline;
+    text-align: center;
+}
+.container .info.header h3 {
+    color: #AE6A7D;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.container .info.header p {
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 15.5px;
+    line-height: 25px;
+    margin-top: -5px;
+}
+.container .info.header h2 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #3C3034;
+}
+.container .info.header h2 {
+    display: inline;
+    margin-top: 144px;
+}
+.container .main-nav {
+    background-color: #8a6e7f;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+}
+ul li a {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    display: inline;
+    color: #F9F6F2;
+    text-decoration: none;
+}
+.main-nav li a:hover {
+    color: #DFA4A4;
+}
+.container .home.header {
+}
+.container .main-nav ul {
+    display: inline;
+}
+.container .main-nav ul {
+    color: #070101;
+}
+
+.container .main-nav li {
+    display: inline;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    color: #000000;
+    text-shadow: 0px 0px;
+    font-size: 12px;
+}
+.container .home.header {
+    background-color: E6D7E6;
+    line-height: 78px;
+    margin-bottom: 66px;
+    margin-top: 31px;
+}
+.container .home.header p {
+    margin-left: 133px;
+    margin-right: 133px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 29px;
+    font-size: 15px;
+}
+.container .home.header h1 {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.container .home.header h1 {
+    font-size: 50px;
+}
+.container .main.footer {
+    background-color: #8a6e7f;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    color: #F9F6F2;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.main-nav li a:hover {
+    color: #5D4A55;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
+  align-items: center; /* Align images properly */
+}
+
+.slider img {
+  object-fit: contain; /* Maintain aspect ratio */
+  max-width: 100%; /* Fit inside the container */
+  height: auto; /* Automatically adjust height */
+  display: block;
+}
+
+.slider-container {
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.slider-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+.container .profolio.header .slider-controls {
+    margin-bottom: 70px;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+button:hover {
+    background-color: #F9F6F4;
+    color: #F9F6F4;
+}
+.profolio.header .slider-controls .next {
+    background-color: #EDE6E8;
+    color: #655156;
+    font-size: 18px;
+}
+.profolio.header .slider-controls .prev {
+    color: #524045;
+    background-color: #EDE6E8;
+    font-size: 18px;
+}
+
+body {
+    text-align: center;
+    background-color: #5D4B57;
+}
+.contact.header .contact.header img {
+    height: 100px;
+    width: auto;
+    margin-top: 19px;
+}
+.contact.header .contact.girl img {
+    height: 166px;
+    width: auto;
+}
+form p textarea {
+    width: 344px;
+    height: 141px;
+    background-color: #E1D7D9;
+    margin-top: -8px;
+    border-style: none;
+    color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 17px;
+}
+
+.contact.form form p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B57183;
+    font-weight: bold;
+}
+
+
+form p input {
+    width: 300px;
+    background-color: #E1D7DA;
+    border-style: none;
+}
+.container .info.header p {
+}
+.contact.header .contact.info ul {
+    display: inline;
+}
+.contact.header.contact.info .texttcontact   {
+    display: inline;
+    text-align: left;
+}
+.contact.header .contact.info ul {
+}
+ul li .ppparagraph {
+    display: inline;
+    text-align: left;
+}
+.contact.info ul li {
+    display: inline;
+    color: #000000;
+}
+.contact.info ul li {
+}
+.contact.header .contact.info ul {
+    display: inline;
+    text-align: left;
+}
+.container .profolio.header .websites {
+    padding-top: 0px;
+    margin-bottom: 30px;
+    margin-top: 47px;
+}
+.profolio.header .websites h3 {
+    margin-bottom: 20px;
+}
+.websites ul li {
+}
+ul li .websitetext {
+}
+ul li .websitetext {
+    color: #23191C;
+    display: inline;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 31px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left: -34px;
+}
+.profolio.header .websites ul {
+    display: inline;
+    text-decoration: none;
+}
+.websites ul li {
+    display: inline;
+}
+ul li .websitetext {
+}
+.websites p .websitetext {
+    color: #473339;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.profolio.header .profolio.header img {
+    height: 100px;
+}
