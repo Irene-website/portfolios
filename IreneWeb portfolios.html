@@ -58,7 +58,50 @@
 	  
 	  
     
+	 <!--Digital book slider-->
+
+	  
+	 
+<div class="slider-container slider1">
 	
+	 <div class="digital book">
+	  
+	  
+	  	  
+  <h3>Digital Book Sample</h3>
+		 
+		
+		 <div class=briefbox>
+		
+	       <ul>
+	         <li><a href="uploads/portfolios/Digital Book PBook.pdf" target="_blank" class="briefboxparagraph">Process Book </a>
+             </li>
+	         <li><a href="uploads/portfolios/Digital Book complete.pdf" target="_blank" class="briefboxparagraph">Complete Book </a>
+             </li>
+			   
+           </ul>
+			 
+			 
+	    </div>
+      </div>
+	  
+	
+	  
+	
+	
+	
+  <div class="slider"> <img src="uploads/portfolios/Digital Book.png"  alt="Image 17"> 
+    <img src="uploads/portfolios/Digital Book2.png" alt="Image 18"> 
+    <img src="uploads/portfolios/Digital Book3.png" alt="Image 19"> 
+    </div>
+	
+</div> 
+	   <!--digital book control-->
+    
+	   <div class="slider-controls">  
+	  <button class="prev" onclick="prevImage(0)">⇠ </button>
+  <button class="next" onclick="nextImage(0)">⇢ </button>
+    </div > 
 	  
 	  
 	  <!--macbook design slider-->
@@ -96,8 +139,8 @@
 	   <!--macbook design control-->
     
 	   <div class="slider-controls">  
-	  <button class="prev" onclick="prevImage(0)">⇠ </button>
-  <button class="next" onclick="nextImage(0)">⇢ </button>
+	  <button class="prev" onclick="prevImage(1)">⇠ </button>
+  <button class="next" onclick="nextImage(1)">⇢ </button>
     </div > 
 	  
 	
@@ -105,13 +148,13 @@
 	
 
 	  
-<!--sport logo slider--> 
+<!--typography slider--> 
 
 	  
 	  
 	  
 <div class="slider-container">
-	<div class="sport logo"><h3>Typography</h3></div>
+	<div class="typography"><h3>Typography</h3>
 	
   <div class="slider">
    <img src="uploads/portfolios/typeface poster1.png" alt="Image 17">
@@ -122,15 +165,15 @@
 	     <img src="uploads/portfolios/Tsai project 1-4.png" alt="Image 13.5" >
 	  
  
-  </div>
+  </div></div>
 </div>
     
-    <!--sport logos control-->
+    <!--typography control-->
     <div class="slider-controls">
-      <button class="prev" onclick="prevImage(1)">
+      <button class="prev" onclick="prevImage(2)">
       ⇠
       </button>
-  <button class="next" onclick="nextImage(1)">
+  <button class="next" onclick="nextImage(2)">
   ⇢
   </button>
 </div>
@@ -140,13 +183,15 @@
 	  
 <div class="slider-container">
   <div class="slider">
+
+	      <img src="uploads/portfolios/serial killer poster 2.png" alt="Image 14">
+	  
+	  <img src="uploads/portfolios/Serial killer poster1.png" alt="Image 15">
        <img src="uploads/portfolios/book cover Spy.png" alt="Image 14.1">
 	  <img src="uploads/portfolios/book cover Spy2.png" alt="Image 14.2">
 	  <img src="uploads/portfolios/rackcard both.png" alt="Image 14.3">
 	
-    <img src="uploads/portfolios/serial killer poster 2.png" alt="Image 14">
-	  
-	  <img src="uploads/portfolios/Serial killer poster1.png" alt="Image 15">
+
         <img src="uploads/portfolios/poster, secure AI.png" alt="Image 16">
 	
 
@@ -155,8 +200,8 @@
     
     <!--degital design control-->
 <div class="slider-controls">
-  <button class="prev" onclick="prevImage(2)">⇠</button>
-  <button class="next" onclick="nextImage(2)">⇢</button>
+  <button class="prev" onclick="prevImage(3)">⇠</button>
+  <button class="next" onclick="nextImage(3)">⇢</button>
 </div>
    
         <!--Hand Draw slider-->
@@ -171,12 +216,16 @@
      <!--Hand Draw control-->
     
 <div class="slider-controls">
-  <button class="prev" onclick="prevImage(3)">⇠</button>
-  <button class="next" onclick="nextImage(3)">⇢</button>
+  <button class="prev" onclick="prevImage(4)">⇠</button>
+  <button class="next" onclick="nextImage(4)">⇢</button>
 </div>
 	
 	  
+	<div class="disclaimer">
+	  <strong>Disclaimer </strong>: Some images were used for educational purposes only. All rights belong to the original creators. </div>
+  
 	  
+  
 
 	  
 </main>
@@ -193,7 +242,7 @@
 	<!--java script-->
 	<script>
 		
-		let indexes = [0, 0, 0, 0];  // Track the current index for each slider
+		let indexes = [0, 0, 0, 0, 0];  // Track the current index for each slider
 
 const sliders = document.querySelectorAll('.slider');
 		//the 'image' was taken away
