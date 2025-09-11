@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+    background-color: #CFEAFF;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+.container img {
+    width: 10
+];
+    width: 20px;
+    height: auto;
+}
+.container .footer img {
+    height: auto;
+    width: 30px;
+    margin-top: -31px;
+    text-align: center;
+}
+
+.container .footimage img {
+    height: auto;
+    margin:auto;
+    width: 30px;
+    padding-bottom: 0px;
+}
+.container .paragraph5 {
+    max-width: 930px;
+    margin-top: 40px;
+    padding-left: 221px;
+    padding-right: 221px;
+}
+.container .image.contact {
+    float: left;
+    text-align: right;
+}
+.contact.form form h6 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: #083A58;
+    margin-bottom: -7px;
+}
+form h6 input {
+    height: 25px;
+    width: 183px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-color: #E2F2FD;
+    -webkit-box-shadow: 0px 0px #E2F2FD;
+    box-shadow: 0px 0px #E2F2FD;
+    border-style: none;
+    margin-top: 3px;
+}
+form p #textarea {
+    height: 118px;
+    width: 294px;
+    margin-top: -18px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-color: #E2F2FD;
+}
+form p #textarea {
+    color: #E2F2FD;
+    background-color: #E2F2FD;
+    border-style: none;
+    margin-top: -40px;
+    width: 325px;
+    height: 149px;
+}
+.contact.form form .submit {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color: #014B6B;
+    background-color: #E2F2FD;
+    font-size: 16px;
+    font-weight: normal;
+    border-style: none;
+    width: 93px;
+    height: 26px;
+    margin-top: 10px;
+}
+.container .contact.form {
+    margin-top: 308px;
+}
+.container .contact.form h2 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color: #13608E;
+}
+.paragraph5 ul li {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.container .paragraph5 h3 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-top: 45px;
+}
+body {
+    background-color: #CFEAFF;
+}
+.container .nav.bar {
+    background-color: #003F70;
+    height: 100px;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 100px;
+    padding-right: 34px;
+}
+.container .body img {
+    width: 1000px;
+    height: auto;
+    text-align: left;
+    margin-top: 25px;
+}
+.container .body {
+    text-align: center;
+}
+.container .nav.bar ul {
+    text-align: right;
+    white-space: normal;
+    display: inline;
+    font-size: 14px;
+    line-height: 100px;
+}
+.nav.bar ul li {
+    text-align: center;
+}
+.nav.bar ul li {
+    display: inline;
+    color: #FFFFFF;
+}
+ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav.bar li a:hover {
+    color: #B9E0FF;
+
+}
+.container .nav.bar img {
+    width: auto;
+    height: 78px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+
+.nav.bar .stickman img {
+    padding-left: 0px;
+    float: left;
+    position: absolute;
+    left: 639px;
+    top: 30px;
+}
+.stickman img {
+    width: 48px;
+    height: auto;
+}
+.body .intro h4 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 37px;
+    color: #0F5792;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.container .footer {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    background-color: #003F70;
+    height: 100px;
+    line-height: 100px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 38px;
+}
+.body .intro p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #022335;
+    font-size: 17px;
+}
+.container .paragraph1 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-left: 221px;
+    margin-right: 221px;
+    text-align: center;
+    max-width: 930px;
+    padding-bottom: 24px;
+}
+.container .paragraph2 {
+    margin-left: 221px;
+    margin-right: 221px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-top: 39px;
+    max-width: 930px;
+}
+.container .paragraph3 {
+    margin-left: 221px;
+    margin-right: 221px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-top: 39px;
+    max-width: 930px;
+}
+.container div img {
+    height: 243px;
+}
+.container .paragraph4 {
+    margin-left: 221px;
+    margin-right: 221px;
+    margin-top: 45px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    max-width: 930px;
+}
+.container .paragraph1 h3 {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    letter-spacing: 5px;
+    color: #00447A;
+}
+.h33 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-size: 35px;
+    color: #00588D;
+    letter-spacing: 3.4px;
+}
+.container .paragraph1 h5 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 20px;
+    color: #001F33;
+    margin-top: -8px;
+}
+.container .paragraph1 h6 {
+    font-size: 18px;
+    color: #4584AB;
+}
+.container .contact.info {
+    text-align: left;
+    margin-top: 67px;
+    position: absolute;
+    left: 744px;
+    top: 234px;
+    float: left;
+}
+.container .contact.info h4 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-size: 25px;
+    color: #2175A7;
+    margin-bottom: -2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .contact.info p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    line-height: 0px;
+    font-size: 19px;
+}
+.contact.info  li a:hover {
+    color: #A1D5FF;
+    display: inline;
+    text-align: left;
+    text-decoration: none;
+}
+.contact.info p a {
+    text-decoration: none;
+    color: #000000;
+}
+.container .contactstick img {
+    margin-bottom: -50px;
+}
+.container div {
+    bottom: auto;
+}
+.container div img {
+    padding-bottom: 0px;
+}
