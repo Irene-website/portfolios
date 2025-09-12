@@ -11,8 +11,6 @@
 
 
 .container img {
-    width: 10
-];
     width: 20px;
     height: auto;
 }
@@ -109,7 +107,7 @@ body {
     line-height: 100px;
     padding-right: 34px;
 }
-.container .body img {
+.container .body  {
     width: 1000px;
     height: auto;
     text-align: left;
@@ -140,7 +138,7 @@ ul li a {
     color: #B9E0FF;
 
 }
-.container .nav.bar img {
+.container .nav.bar  {
     width: auto;
     height: 78px;
     float: left;
@@ -149,7 +147,7 @@ ul li a {
     margin-bottom: 20px;
 }
 
-.nav.bar .stickman img {
+.nav.bar .stickman  {
     padding-left: 0px;
     float: left;
     position: absolute;
