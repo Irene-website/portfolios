@@ -3,17 +3,19 @@
 
 .container {
     background-color: #CFEAFF;
-    max-width: 100%;
-    max-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
     margin: auto;
     text-align: center;
 }
-
-
 .container img {
-    width: 20px;
+    width: 10;
+    width: 140px;
     height: auto;
+    margin-top: 21px;
+    margin-left: -40px;
 }
+
 .container .footer img {
     height: auto;
     width: 30px;
@@ -29,9 +31,8 @@
 }
 .container .paragraph5 {
     max-width: 930px;
-    margin-top: 40px;
-    padding-left: 221px;
-    padding-right: 221px;
+    margin: auto;
+    padding-top: 37px;
 }
 .container .image.contact {
     float: left;
@@ -81,7 +82,7 @@ form p #textarea {
     margin-top: 10px;
 }
 .container .contact.form {
-    margin-top: 308px;
+    padding-top: 43px;
 }
 .container .contact.form h2 {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
@@ -91,8 +92,10 @@ form p #textarea {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 .container .paragraph5 h3 {
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
     margin-top: 45px;
+    font-size: 35px;
+    color: #00588D;
 }
 body {
     background-color: #CFEAFF;
@@ -107,7 +110,7 @@ body {
     line-height: 100px;
     padding-right: 34px;
 }
-.container .body  {
+.container .body img {
     width: 1000px;
     height: auto;
     text-align: left;
@@ -138,7 +141,7 @@ ul li a {
     color: #B9E0FF;
 
 }
-.container .nav.bar  {
+.container .nav.bar img {
     width: auto;
     height: 78px;
     float: left;
@@ -147,7 +150,7 @@ ul li a {
     margin-bottom: 20px;
 }
 
-.nav.bar .stickman  {
+.nav.bar .stickman img {
     padding-left: 0px;
     float: left;
     position: absolute;
@@ -183,36 +186,34 @@ ul li a {
 }
 .container .paragraph1 {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    margin-left: 221px;
-    margin-right: 221px;
     text-align: center;
     max-width: 930px;
-    padding-bottom: 24px;
+    margin: auto;
+    padding-top: 37px;
 }
 .container .paragraph2 {
-    margin-left: 221px;
-    margin-right: 221px;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    margin-top: 39px;
+    margin: auto;
     max-width: 930px;
+    padding-top: 37px;
 }
 .container .paragraph3 {
-    margin-left: 221px;
-    margin-right: 221px;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    margin-top: 39px;
+    margin: auto;
     max-width: 930px;
+    padding-top: 37px;
 }
 .container div img {
-    height: 243px;
+    margin: auto;
+    width: auto;
+    height: 346px;
 }
 .container .paragraph4 {
-    margin-left: 221px;
-    margin-right: 221px;
-    margin-top: 45px;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     font-size: 16px;
+    margin: auto;
     max-width: 930px;
+    padding-top: 37px;
 }
 .container .paragraph1 h3 {
     font-size: 35px;
@@ -237,12 +238,11 @@ ul li a {
     color: #4584AB;
 }
 .container .contact.info {
-    text-align: left;
-    margin-top: 67px;
-    position: absolute;
-    left: 744px;
-    top: 234px;
-    float: left;
+    text-align: center;
+    margin: auto;
+    width: 343px;
+    height: auto;
+    padding-top: 43px;
 }
 .container .contact.info h4 {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
@@ -251,11 +251,21 @@ ul li a {
     margin-bottom: -2px;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
+}
+.h44 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -2px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color: #2175A7;
+    font-size: 25px;
+    text-decoration: none;
 }
 .container .contact.info p {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    line-height: 0px;
     font-size: 19px;
+    line-height: 10px;
 }
 .contact.info  li a:hover {
     color: #A1D5FF;
@@ -273,6 +283,6 @@ ul li a {
 .container div {
     bottom: auto;
 }
-.container div img {
-    padding-bottom: 0px;
+.container div {
+    width: auto;
 }
