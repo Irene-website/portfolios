@@ -187,7 +187,7 @@ ul li .ppparagraph {
     text-decoration: none;
     padding-bottom: 0px;
     display: inline;
-    margin-top: -6px;
+    margin-top: -20px;
 }
 
 .briefbox  li a:hover {
@@ -203,7 +203,6 @@ ul li .ppparagraph {
 
 .slider-container.slider1 .macbook.design .briefbox {
     margin-top: -20px;
-    margin-bottom: -85px;
 }
 
 
