@@ -201,6 +201,12 @@ ul li .ppparagraph {
 
 
 
+.slider-container.slider1 .macbook.design .briefbox {
+    margin-top: -20px;
+    margin-bottom: -85px;
+}
+
+
 
 
 
@@ -250,8 +256,7 @@ ul li .ppparagraph {
     width: auto;
     margin-bottom: 35px;
 }
-.container .info.header p {
-}
+
 .info.header .funfact.header img {
     height: 100px;
     width: auto;
@@ -511,8 +516,7 @@ ul li .websitetext {
 .websites ul li {
     display: inline;
 }
-ul li .websitetext {
-}
+
 .websites p .websitetext {
     color: #473339;
     font-size: 17px;
