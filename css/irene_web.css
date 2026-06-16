@@ -11,6 +11,28 @@ body {
 	background-color: #EDE6E8;
 }
 
+.header{   
+    width:100%;
+    margin-top:50px;
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    animation: fadeInTitle 1.2s ease-out forwards; 
+
+}
+
+.myh1{
+    
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-size:65px;
+    letter-spacing: 6px;
+    margin-top:-25px;
+}
+
+
 .navBar{
 	max-width:100%;
 	background-color:#8a6e7f;
@@ -19,9 +41,10 @@ body {
 
 .navBar ul {
 	list-style-type: none;
+	letter-spacing:1px;
 	padding: 15px;
 	justify-content: center;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     display: flex;
 	font-size:14px;
 }
@@ -181,10 +204,11 @@ font-style: bold;
 
 .myfooter {
     background-color: #8a6e7f;
+	letter-spacing:1px;
     height: 85px;
     text-align: center;
     line-height: 85px;
-    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     color: #F9F6F2;
     font-size: 14px;
     font-weight: bold;
