@@ -7,35 +7,43 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-<link href="css/irene_web.css" rel="stylesheet" type="text/css">
+    <link href="css/irene_web.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
 <div class="container">
+    
+<nav class="navBar" style="background-color: #8a6e7f;">
+  <!-- The Hamburger Button -->
+  <button class="menu-toggle" aria-label="Toggle navigation">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
 	
-<nav class="navBar">
-	<ul>
-	<li><a href="https://irene-website.github.io/PORTFOLIO/ireneWeb%20home.html" >Home</a></li>
-	<li><a href="https://irene-website.github.io/PORTFOLIO/ireneWeb%20about%20me.html">About</a></li>
-	<li><a href="https://irene-website.github.io/PORTFOLIO/">Portfolio</a></li>
-	<li><a href="uploads/IreneTsai_Resume (6).pdf" target="_blank">Resume</a></li>
-	<li><a href="https://irene-website.github.io/PORTFOLIO/ireneWeb%20contact.html">Contact</a></li>
+<ul class="nav-links">
+	
+	<li><a href="irene_home.html" >Home</a></li>
+	<li><a href="irene_about.html">About</a></li>
+	<li><a href="index.html">Portfolio</a></li>
+	<li><a href="uploads/IreneTsai_web_Resume (1).pdf" target="_blank">Resume</a></li>
+	<li><a href="irene_contact.html">Contact</a></li>
 		</ul>
 </nav>
 	
-<div class="header" style="text-align:center;">
-	  <!-- <h1>Welcome to My</h1> -->
-      <!-- <h1 class="myh1">PORTFOLIO!</h1>  -->
-	<img src="image/header_portfolio.png" style="max-width:580px; width:100%;" >
+<div class="header">
+    
+<img src="image/header_portfolio.png" style="max-width:700px; width:100%;" >
 </div>
+    <img src="image/cartoon, drawing w%3Aipad.png" style="width:180px; margin-top:-40px;">
 	
 <div class="website" style="text-align:center;">
 	<h3 class="slide-title">Websites</h3>
 	<ul>
-	<li><a href="https://irene-website.github.io/PORTFOLIO/ireneWeb%20home.html" target="_blank">Irene's Personal Website</a></li>
-	<li><a href="https://irene-website.github.io/PORTFOLIO/TaoWeb%20home.html" target="_blank">Terry's Personal Website</a></li>
-	<li><a href="https://irene-website.github.io/PORTFOLIO/final%20home%20page.html" target="_blank">Sloth Website - School Project</a></li>
+	<li><a href="https://irene-website.github.io/PORTFOLIOS/ireneWeb%20home.html" target="_blank">Irene's Personal Website</a></li>
+	<li><a href="https://irene-website.github.io/PORTFOLIOS/TaoWeb%20home.html" target="_blank">Terry's Personal Website</a></li>
+	<li><a href="https://irene-website.github.io/PORTFOLIOS/final%20home%20page.html" target="_blank">Sloth Website - School Project</a></li>
         <li><a href="bloosmcompany.html" target="_blank" class="websitetext">Blossom Company Website - School Project
 			</a></li>
 	</ul>
@@ -52,8 +60,8 @@
 <div class="slideshow-container">
 	<h3 class="slide-title">Annual Report Design</h3>
 	<ul>
-	<li><a href="uploads/AnnualReport__Pbook_.docx.pdf" target="_blank">Process Book</a></li><br>
-	<li><a href="uploads/AnnualReport.IreneTsai.pdf" target="_blank">Complete Book</a></li>
+	<li><a href="#process_book" target="_blank">Process Book</a></li><br>
+	<li><a href="#complete_book" target="_blank">Complete Book</a></li>
 	</ul>
 	<!-- Slideshow container -->
 
@@ -101,23 +109,23 @@
     
     <h3 class="slide-title">Digital Book Design</h3>
 	<ul>
-	<li><a href="uploads/Degital Book Pbook_Update.pdf" target="_blank">Process Book</a></li><br>
-	<li><a href="uploads/portfolios/Digital Book complete.pdf" target="_blank">Complete Book</a></li>
+	<li><a href="#process_book" target="_blank">Process Book</a></li><br>
+	<li><a href="#complete_book" target="_blank">Complete Book</a></li>
 	</ul>
 	
 	<!-- Slideshow container -->
 <div class="image-window">
     
   <div class="mySlides2">
-    <img src="image/Digital Book.png">
+    <img src="uploads/Digital Book.png">
   </div>
 
   <div class="mySlides2">
-    <img src="image/Digital Book2.png">
+    <img src="uploads/Digital Book2.png">
   </div>
 
   <div class="mySlides2">
-    <img src="image/Digital Book3.png">
+    <img src="uploads/Digital Book3.png">
   </div>
 	    </div>
 
@@ -176,7 +184,7 @@
         
 	<h3 class="slide-title">Typography Posters</h3>
 	<ul>
-	<li><a href="uploads/typographyPost_Pbook.docx (1).pdf" target="_blank">Process Book</a></li>
+	<li><a href="#processbook" target="_blank">Process Book</a></li>
 	</ul>
 	<!-- Slideshow container -->
 <div class="image-window">
@@ -293,6 +301,13 @@
 	
 	<script>
 		
+          const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+        
 let slideIndex = [1,1,1,1,1,1];
 let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
 showSlides(1, 0);
